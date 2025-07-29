@@ -1,5 +1,5 @@
 ```yaml
-name: CI/CD Pipeline
+name: Flask-App-CI-CD
 
 on:
   push:
@@ -39,5 +39,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: yourdockerusername/flask-task-app:${{ github.sha }}
+          tags: elnemri/flask-task-app:${{ github.sha }}
 ```
